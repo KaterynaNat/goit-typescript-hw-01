@@ -15,3 +15,10 @@ function compare<
     weight: bottom.weight,
   };
 }
+
+console.log(
+  compare(
+    { name: "A", color: "red", position: 1, weight: 10 },
+    { name: "B", color: "blue", position: 2, weight: 20 }
+  )
+);
